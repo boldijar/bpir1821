@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>reqspec Prj233 - Requirement Specification #1</title>
+<link type="text/css" rel="stylesheet" href="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo" height="53" src="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></div>
+<div class="doc_title"><p>Requirements Specification Document</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Prj233</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 19/03/2018</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><br><b><p style="padding-left: 20px;"><a href="#toc_1">1. eiir1865_ReqSpec : Requirement Specification #1</a></p></b>
+<p style="padding-left: 45px;"><a href="#toc_req13069">eiir1865_Req01 : Req01</a></p><p style="padding-left: 45px;"><a href="#toc_req13071">eiir1865_Req02 : Req02</a></p><p style="padding-left: 45px;"><a href="#toc_req13073">eiir1865_Req03 : Req03</a></p></div><p style="page-break-before: always"></p><table class="req_spec"><tr><th colspan="2"><h2 class="doclevel"> <span class="label">1. Requirements Spec.:</span> eiir1865_ReqSpec : Requirement Specification #1</th></tr></h2>
+<a name='toc_1'></a>
+<tr><td width="20%"><span class="label">revision</span></td><td> 1</td></tr>
+<tr><td width="20%"><span class="label">Author</span></td><td> eiir1865</td></tr>
+<tr><td width="20%"><span class="label">Type</span></td><td>Section</td></tr><tr><td width="20%"><span class="label">Total count of requirements (Coverage)</span></td><td>N/A (3/0)</td></tr><tr><td colspan="2"></td></tr></table><br/>
+<table class="req" ><tr><th colspan="2"><span class="label">Requirement:</span> eiir1865_Req01 : Req01</th></tr>
+<tr><td valign="top"><span class="label">Version :</span></td><td>1</td></tr>
+<tr><td valign="top"><span class="label">revision:</span></td><td>1</td></tr>
+<a name="toc_req13069"></a><tr><td valign="top"><span class="label">Author:</span></td><td>eiir1865</td></tr>
+<tr><td width="20%"><span class="label">Status</span></td><td>Draft</td></tr><tr><td width="20%"><span class="label">Type</span></td><td>Use Case</td></tr><tr><td width="20%"><span class="label">Coverage</span></td><td>400% (4/1)</td></tr><tr><td colspan="2"> <br/><p>
+	i. Adaugarea unei noi intrebari pentru un anumit domeniu (enunt intrebare, raspuns 1,<br />
+	raspuns 2, raspuns 3, raspunsul corect, domeniul) in setul de intrebari disponibile;</p></td></tr><tr><td width="20%"><span class="label">Related Test Cases</span></td><td>1 : ECP_ValidTestCase<br/>2 : ECP_InvalidTestCase<br/>3 : BVA_ValidTestCase<br/>4 : BVA_InvalidTestCase<br/></td></tr></table><br/><table class="req" ><tr><th colspan="2"><span class="label">Requirement:</span> eiir1865_Req02 : Req02</th></tr>
+<tr><td valign="top"><span class="label">Version :</span></td><td>1</td></tr>
+<tr><td valign="top"><span class="label">revision:</span></td><td>1</td></tr>
+<a name="toc_req13071"></a><tr><td valign="top"><span class="label">Author:</span></td><td>eiir1865</td></tr>
+<tr><td width="20%"><span class="label">Status</span></td><td>Draft</td></tr><tr><td width="20%"><span class="label">Type</span></td><td>Use Case</td></tr><tr><td width="20%"><span class="label">Coverage</span></td><td>0% (0/1)</td></tr><tr><td colspan="2"> <br/></td></tr></table><br/><table class="req" ><tr><th colspan="2"><span class="label">Requirement:</span> eiir1865_Req03 : Req03</th></tr>
+<tr><td valign="top"><span class="label">Version :</span></td><td>1</td></tr>
+<tr><td valign="top"><span class="label">revision:</span></td><td>1</td></tr>
+<a name="toc_req13073"></a><tr><td valign="top"><span class="label">Author:</span></td><td>eiir1865</td></tr>
+<tr><td width="20%"><span class="label">Status</span></td><td>Draft</td></tr><tr><td width="20%"><span class="label">Type</span></td><td>Use Case</td></tr><tr><td width="20%"><span class="label">Coverage</span></td><td>0% (0/1)</td></tr><tr><td colspan="2"> <br/></td></tr></table><br/>
+</body>
+</html>

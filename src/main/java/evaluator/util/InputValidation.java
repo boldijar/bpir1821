@@ -3,6 +3,8 @@ package evaluator.util;
 
 import evaluator.exception.InputValidationFailedException;
 
+import java.util.ArrayList;
+
 public class InputValidation {
 
 	public static void validateEnunt(String enunt) throws InputValidationFailedException{
@@ -66,11 +68,19 @@ public class InputValidation {
 	}
 	
 	public static void validateDomeniu(String domeniu) throws InputValidationFailedException{
-		
+		ArrayList<String> allowedDomains = new ArrayList<>();
+		allowedDomains.add("it");
+		allowedDomains.add("biologie");
+		allowedDomains.add("geografie");
+		allowedDomains.add("istorie");
+		allowedDomains.add("matematica");
+		allowedDomains.add("filozofie");
 		domeniu = domeniu.trim();
 		
 		if(domeniu.equals(""))
 			throw new InputValidationFailedException("Domeniul este vid!");
+		if(!allowedDomains.contains(domeniu.trim().toLowerCase()))
+			throw new InputValidationFailedException("Domeniul nu apartine domeniilor valide!");
 		if(!Character.isUpperCase(domeniu.charAt(0)))
 			throw new InputValidationFailedException("Prima litera din domeniu nu e majuscula!");
 		if(domeniu.length() > 30)
