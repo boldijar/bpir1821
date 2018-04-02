@@ -30,31 +30,30 @@ public class AppController {
 	}
 	
 	public Test createNewTest() throws NotAbleToCreateTestException{
-		
 		if(intrebariRepository.getIntrebari().size() < 5)
 			throw new NotAbleToCreateTestException("Nu exista suficiente intrebari pentru crearea unui test!(5)");
-		
+
 		if(intrebariRepository.getNumberOfDistinctDomains() < 5)
 			throw new NotAbleToCreateTestException("Nu exista suficiente domenii pentru crearea unui test!(5)");
-		
+
 		List<Intrebare> testIntrebari = new LinkedList<>();
 		List<String> domenii = new LinkedList<>();
 		Intrebare intrebare;
 		Test test = new Test();
-		
+
 		while(testIntrebari.size() < 5){
 			intrebare = intrebariRepository.pickRandomIntrebare();
-			
+
 			if(!testIntrebari.contains(intrebare) && !domenii.contains(intrebare.getDomeniu())){
 				testIntrebari.add(intrebare);
 				domenii.add(intrebare.getDomeniu());
 			}
-			
+
 		}
-		
+
 		test.setIntrebari(testIntrebari);
+
 		return test;
-		
 	}
 	
 	public void loadIntrebariFromFile(String filename) throws Exception {
