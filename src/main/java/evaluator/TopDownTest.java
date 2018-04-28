@@ -16,7 +16,7 @@ import java.util.Map;
 
 import static junit.framework.TestCase.fail;
 
-public class TopDown {
+public class TopDownTest {
     private AppController appController;
 
     @Before

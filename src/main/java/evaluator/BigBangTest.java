@@ -16,7 +16,7 @@ import java.util.Map;
 
 import static junit.framework.TestCase.fail;
 
-public class BigBang {
+public class BigBangTest {
     private AppController appController;
 
     @Before
