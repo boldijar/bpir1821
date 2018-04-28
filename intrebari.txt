@@ -1,0 +1,14 @@
+Ce faci?
+1) Bine
+2) Ok
+3) Nasol
+1
+IT
+##
+Unde esti?
+1) A
+2) B
+3) C
+2
+Geografie
+##

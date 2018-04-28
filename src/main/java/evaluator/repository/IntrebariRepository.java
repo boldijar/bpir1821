@@ -8,8 +8,6 @@ import java.util.List;
 import java.util.Random;
 import java.util.Set;
 import java.util.TreeSet;
-
-
 import evaluator.model.Intrebare;
 import evaluator.exception.DuplicateIntrebareException;
 
@@ -68,9 +66,9 @@ public class IntrebariRepository {
 	
 	public List<Intrebare> loadIntrebariFromFile(String filename) throws Exception {
 		
-		List<Intrebare> intrebari = new LinkedList<Intrebare>();
-		BufferedReader br = null; 
-		String line = null;
+		List<Intrebare> intrebari = new LinkedList<>();
+		BufferedReader br;
+		String line;
 		List<String> intrebareAux;
 		Intrebare intrebare;
 		
@@ -78,7 +76,7 @@ public class IntrebariRepository {
 			br = new BufferedReader(new FileReader(filename));
 			line = br.readLine();
 			while(line != null){
-				intrebareAux = new LinkedList<String>();
+				intrebareAux = new LinkedList<>();
 				while(!line.equals("##")){
 					intrebareAux.add(line);
 					line = br.readLine();
@@ -92,12 +90,12 @@ public class IntrebariRepository {
 				intrebare.setDomeniu(intrebareAux.get(5));
 				intrebari.add(intrebare);
 				line = br.readLine();
-
-				br.close();
 			}
-		
+
+			br.close();
 		}
 		catch (IOException e) {
+			System.out.println(e.getMessage());
 			throw new Exception("Could not load from file");
 		}
 		
