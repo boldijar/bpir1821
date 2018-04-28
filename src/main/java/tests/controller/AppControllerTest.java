@@ -1,5 +1,6 @@
-package evaluator.controller;
+package tests.controller;
 
+import evaluator.controller.AppController;
 import evaluator.exception.DuplicateIntrebareException;
 import evaluator.exception.InputValidationFailedException;
 import evaluator.exception.NotAbleToCreateStatisticsException;
@@ -9,9 +10,7 @@ import evaluator.model.Statistica;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
 import java.util.Map;
-
 import static junit.framework.TestCase.fail;
 
 public class AppControllerTest {

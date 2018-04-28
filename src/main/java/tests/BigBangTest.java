@@ -1,4 +1,4 @@
-package evaluator;
+package tests;
 
 import evaluator.controller.AppController;
 import evaluator.exception.DuplicateIntrebareException;

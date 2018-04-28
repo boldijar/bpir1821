@@ -1,6 +1,7 @@
-package evaluator.util;
+package tests.util;
 
 import evaluator.exception.InputValidationFailedException;
+import evaluator.util.InputValidation;
 import org.junit.Assert;
 import org.junit.Test;
 import static junit.framework.TestCase.fail;
